@@ -1,0 +1,10 @@
+# Core — the jarvis assistant + screen-eyes
+opencv-python==4.14.0.94   # webcam + face/eye detection (Haar cascades)
+numpy==2.5.2               # audio loudness (RMS) + array math
+sounddevice==0.5.5         # microphone recording
+scipy==1.18.0              # save mic audio to a .wav file
+groq==1.6.0                # cloud, private: Whisper speech-to-text + the agent brain
+ollama==0.6.2              # LOCAL vision (moondream) — nothing leaves the Mac
+
+# Only the older stages/ files use this (they sent vision to Google Gemini):
+# google-genai==2.18.1
